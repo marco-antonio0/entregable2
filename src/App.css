@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+*{
+text-align: center;
+}
+
+.App{
+    background-image: url(./assets/clima.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 3);
+    background: rgb(157, 166, 167);
+    width: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card ul{
+    list-style: none;
+    padding: 0;
+}
+.card ul li{
+    margin-bottom: 10px;
+    text-align: left;
+}
+button{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 3);
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+    background: rgb(160, 166, 167);
+}
